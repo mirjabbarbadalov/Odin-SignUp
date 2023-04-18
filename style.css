@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Norse-Bold";
+  src: url("./fonts/Norse-Bold.otf");
+}
+
+
+.container{
+  display: flex;
+}
+
+.left-part {  
+  background-image: url(./img/halie-west-25xggax4bSA-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 40vw;
+  min-width: 200px;
+  min-height: 100vh;
+  position: relative;
+}
+
+
+.odin-logo-sec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 20%;
+  left: 8%;
+  color: white;
+  min-width: 200px;
+  width: 30vw;
+  padding: 5px;
+}
+
+.black-bar {
+  min-width: 200px;
+  width: 100%;
+  padding: 5px;
+  height: 20%;
+  background-color: black;
+  opacity: 0.4;
+  position: absolute;
+  top: 20%;
+}
+
+.odin-logo {
+  width: 100px;
+}
+
+.odin-name {
+  font-family: Norse-Bold;
+  font-size: 6rem;
+}
+
+.photo-by {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 200px;
+  width: 30vw;
+  color: white;
+  font-family: sans-serif;
+  position: absolute;
+  bottom: 20px;
+  left: 8%;
+  font-size: 0.8rem;
+}
+
+.footer-link {
+  text-decoration: underline;
+  color: white;
+}
+
+.right-part{
+  width: 60vw;
+  min-width: 400px;
+}
+
+.info-part{
+  display: flex;
+  flex-direction: column;
+  width:100% ;
+  min-height: 30vh;
+  max-height: 50vh;
+  background-color: rgb(245, 245, 245);
+  letter-spacing: 0.4px;
+  line-height: 1.2;
+  padding: 30px;
+}
+
+.first-text{
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-right: 100px;
+}
+
+.second-text{ 
+  margin-top: 18px;
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+label{
+  display: block;
+}
+
+.form-section{
+  width: 100%;
+  min-width: 400px;
+  min-height: 42vh;
+  padding: 30px;
+  box-shadow: 2px;
+  box-shadow: 1px -2px 14px -1px rgba(0,0,0,0.75);
+-webkit-box-shadow: 1px -2px 14px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px -2px 14px -1px rgba(0,0,0,0.75);
+}
+
+.form-name{
+  font-family: sans-serif;
+  font-weight: 200;
+  font-size: 22px;
+}
+
+.form-inputs{
+  display: flex;
+  margin-top: 40px;
+  gap: 30px;
+  flex-direction: column;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.4px;
+  padding: 16px;
+}
+
+.normal{
+  width: 240px;
+  height: 30px  ;
+  padding: 8px;
+  border-radius: 5px;
+  border: 0.5px solid rgb(222, 222, 222);
+}
+
+.row{
+  display: flex;
+  column-gap: 100px;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+
+.create-btn{
+  padding: 10px 40px;
+  background-color: #596D48;
+  color: white;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  border-radius: 8px;
+  margin:40px 40px 0 18px ;
+}
+
+.create-btn:hover{
+  background-color: #637554;
+  cursor: pointer;
+}
+
+.login{
+  margin-top: 20px;
+  margin-left: 40px;
+  font-family: sans-serif;
+}
+
+.login-link{
+  text-decoration: none;
+  font-weight: bold;
+  color: #596D48;
+}
+
+
+.error{
+  width: 240px;
+  height: 30px  ;
+  padding: 8px;
+  border-radius: 5px;
+  border: 0.5px solid rgb(255, 30, 30);
+}
+
+.good{
+  width: 240px;
+  height: 30px  ;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid green;
+}
+
+
+
+
+
+
+
+
